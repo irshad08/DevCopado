@@ -163,6 +163,16 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Six__c</fullName>
+        <externalId>false</externalId>
+        <label>Six</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Five__c</fullName>
         <externalId>false</externalId>
         <label>Five</label>
