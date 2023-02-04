@@ -9,8 +9,6 @@
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
-	
-	
     <actionOverrides>
         <actionName>Accept</actionName>
         <formFactor>Small</formFactor>
@@ -165,18 +163,30 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Six__c</fullName>
+        <externalId>false</externalId>
+        <label>Six</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Five__c</fullName>
+        <externalId>false</externalId>
+        <label>Five</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field One</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-	<fields>
-        <fullName>Field_Three__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field Three</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -188,6 +198,14 @@
         <trackTrending>false</trackTrending>
         <type>Email</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Three__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field Three</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
